@@ -1,0 +1,7 @@
+.DS_Store
+.idea
+npm-debug.log
+client/.sass-cache
+client/css/bundle.css.map
+client/node_modules
+server/node_modules

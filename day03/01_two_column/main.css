@@ -121,7 +121,7 @@ p {
 
 @media screen and (max-width: 425px) {
   .row-entry-2col {
-    float: inherit;
+    float: none;
     margin: 10px 0 10px 0;
     width: 100%;
   }

@@ -10,26 +10,37 @@ body {
 }
 
 section {
-  padding: 50px;
+  padding: 35px 50px 35px 50px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   /* medium */
   section {
-    padding: 30px;
+    padding: 25px 40px 25px 40px;
   }
 }
 
 @media screen and (max-width: 425px) {
   /* small */
   section {
-    padding: 15px;
+    padding: 5px 15px 5px 15px;
   }
 }
 
 .intro-block {
   background-color: #F1F2F3;
   color: #555;
+}
+
+.divider-bottom-block {
+  border-bottom: 1px solid lightgray;
+}
+
+.highlight-title-bar {
+  background-color: #ce2437;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 20px 5px 20px;
 }
 
 h1 {
@@ -82,6 +93,20 @@ h2 {
   }
 }
 
+h3 {
+  color: #0664BD;
+  margin: 10px 0 5px 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 425px) {
+  /* small */
+  h3 {
+    font-size: 14px;
+    margin: 5px 0 5px 0;
+  }
+}
+
 p {
   font-size: 18px;
   line-height: 24px;
@@ -121,6 +146,43 @@ p {
 
 @media screen and (max-width: 425px) {
   .row-entry-2col {
+    float: none;
+    margin: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+.row-entry-3col {
+  float: left;
+  margin-right: 2%;
+  width: 31%;
+}
+
+@media screen and (max-width: 425px) {
+  .row-entry-3col {
+    float: none;
+    margin: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+.row-entry-4col {
+  float: left;
+  margin-right: 2%;
+  width: 23%;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  /* medium */
+  .row-entry-4col {
+    float: left;
+    margin-right: 2%;
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .row-entry-4col {
     float: none;
     margin: 10px 0 10px 0;
     width: 100%;

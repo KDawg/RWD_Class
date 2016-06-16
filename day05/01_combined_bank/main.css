@@ -9,6 +9,13 @@ body {
   /* intentionally left blank */
 }
 
+@media screen and (min-width: 1441px) {
+  .page-container {
+    margin: 0 auto;
+    width: 1440px;
+  }   
+}
+
 section {
   padding: 35px 50px 35px 50px;
 }

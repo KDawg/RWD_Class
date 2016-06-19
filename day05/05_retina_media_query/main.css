@@ -1,0 +1,19 @@
+
+.nice-illustration {
+  background-image: url(waffles.jpg);
+  height: 161px;
+  width: 256px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .nice-illustration {
+    background-image: url(waffles_2x.jpg);
+    background-size: 256px 161px;
+  }
+}
+
+.lame-illustration {
+  background-image: url(waffles.jpg);
+  height: 161px;
+  width: 256px;
+}

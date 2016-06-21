@@ -202,3 +202,7 @@ a:hover {
   color: #DE3457;
   text-decoration: underline;
 }
+
+.nav-right-group .nav-list .nav-item:last-child {
+  padding-right: 0;
+}
